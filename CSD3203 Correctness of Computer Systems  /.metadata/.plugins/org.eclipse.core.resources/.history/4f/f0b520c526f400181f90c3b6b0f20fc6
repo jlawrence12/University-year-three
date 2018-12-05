@@ -1,0 +1,35 @@
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+import java.util.List;
+
+public class Profile {
+	// Your additions/changes below this line
+
+	Grade gradeObj = new Grade(2);
+	Grade gradeObj2 = new Grade(12);
+	Grade gradeObj3 = new Grade(21);
+	
+	public Profile(List<Grade> g) {
+		if(g.isEmpty()) {
+		throw new IllegalArgumentException();
+		}
+	
+		g.add(gradeObj);
+		g.add(gradeObj2);
+		g.add(gradeObj3);
+		
+	}
+	
+	public Classification classify(List<Classification> cl) {
+		return Classification.First;
+		return Classification.Third;
+		
+	}
+
+	public boolean isClear() {
+		return true;
+	}
+}

@@ -1,0 +1,83 @@
+<!--  Author: Jovanie Lawrence
+      Date: 08/02/18    
+      Description: Code for the products page on the peach cms admin. -->
+      <!DOCTYPE html>
+      <html>
+         <head>
+            <!--   Page Title     -->
+            <title> Home </title>
+            <!-- import tab icon -->
+            <link rel='shortcut icon' href='Media/peach.png'>
+            <!-- import boostrap stylesheets -->
+            <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+            <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+            <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+            <script src='Javascript/jquery-3.1.1.min.js'> </script>
+            <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'> </script>
+            <script src='Javascript/bootstrap.min.js'> </script>
+            <script src='Javascript/jquery.md5.js'> </script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <!--import our own stylesheet and javascript file -->
+            <script src='Javascript/index.js'> </script>
+            <link rel='stylesheet' type='text/css' href='cmsStyleSheet.css'>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+         </head>
+          <!-- Navigation bar -->
+            <nav class="navbar navbar-light" style="background-color: rgb(76, 61, 211);">
+               <header>
+                  <div class='container-fluid'>
+                  <div class='navbar-header'>
+                     <a href='#' class='d-inline-block align-top'> <img src=""> </a>
+                     <ul class="nav navbar-nav navbar-left">
+                        <a class="navbar-brand" >
+                        <img alt="" src="" id="logo" width="120px" height="50px">
+                        </a>
+                        
+                     </ul>
+                  </div>
+                  <form class="navbar-form navbar-right" form id="search">
+                    <div class="form-group">
+                        <input type="text" id="searchbox" class="form-control" placeholder="Search">
+                    </div>
+                    <a href=""><button type="button" id="searchbutton" class="btn btn-default" aria-label="Left Align">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                    </a>
+                </form> 
+               <a href="index.html"> <img src="juggleLogo.png" id="logo" width="200px"> </a>
+            </nav>
+            <div class="container-fluid" id="panel">
+                                 <div class="navbar-header" id="list">
+                                        <ul class="nav navbar-nav navbar-centre">
+                                        <li class="menu-active"><a href="#intro"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li class='dropdown'>
+                        <a href='#' class='dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                             Manufacturer <span class='caret'></span></a>
+
+                            <ul class='dropdown-menu'>            
+                                <li><a href='#' data-toggle='modal' data-target='#boseInfoModal'> Apple </a></li>
+                                <li><a href='#' data-toggle='modal' data-target='#sonyInfoModal'> Blackberry </a></li>
+                                <li><a href='#' data-toggle='modal' data-target='#sonyInfoModal'> Google Pixel </a></li>
+                                <li><a href='#' data-toggle='modal' data-target='#sonyInfoModal'> Nokia </a></li>
+                                <li><a href='#' data-toggle='modal' data-target='#sonyInfoModal'> OnePlus </a></li>
+
+                            </ul>
+                    </li>
+
+                                        <li><a href="#pricing">Pricing</a></li>
+                                        <li><a href="#contact"> Contact</a></li>
+                                        <li><a href="#gallery">Gallery</a></li>
+                                    </ul>
+                                </div>
+                </div>
+                <hr>
+                <body>
+
+                  <p> This is the about page </p>
+                        
+                        
+                </body>
+      </html>
+      

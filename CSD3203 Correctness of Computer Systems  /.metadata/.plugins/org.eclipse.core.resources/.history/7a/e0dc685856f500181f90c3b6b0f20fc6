@@ -1,0 +1,78 @@
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+import java.util.List;
+
+public class Profile {
+	// Your additions/changes below this line
+
+	private List<Grade> gradeList;
+	
+	public Profile(List<Grade> gradeList) {
+		
+		if(gradeList.isEmpty() ||gradeList==null) {
+			throw new IllegalArgumentException();
+		}
+	
+		for(int i=0; i<gradeList.size(); i++) {
+			
+			if(gradeList.get(i).classify() == Classification.Fail) {
+				throw new IllegalArgumentException();
+			}
+			else {
+
+				this.gradeList.add(gradeList.get(i));
+			}
+		}
+		
+	}
+	
+	public Classification classify() {
+
+		
+		if(calculateClassPrecentage(Classification.First) >= 50) {
+			return Classification.First;
+		}
+		else if((calculateClassPrecentage(Classification.UpperSecond) +calculateClassPrecentage(Classification.First) ) >=  50) {
+			return Classification.UpperSecond;
+		}
+		else if((calculateClassPrecentage(Classification.LowerSecond)+calculateClassPrecentage(Classification.UpperSecond) +calculateClassPrecentage(Classification.First) ) >=  50) {
+			return Classification.LowerSecond;
+		}
+		else		
+			return Classification.Third;
+
+		
+	}
+
+	public boolean isClear() {
+		
+		if(this.classify()==Classification.First || this.classify()==Classification.UpperSecond ) {
+			
+			
+			if(calculateClassPrecentage(Classification.Third)> 25) {
+				return false;
+			}
+		}
+		else
+			return true;
+
+	}
+	
+	private int calculateClassPrecentage(Classification classification) {
+		int classGradeCount = 0;
+		
+		for(Grade grade: gradeList){
+			
+			if(grade.classify() == classification) {
+				classGradeCount ++;
+			}
+		}
+
+		int classGradePercentage = classGradeCount * 100 / gradeList.size();
+		
+		return classGradePercentage;
+	}
+}

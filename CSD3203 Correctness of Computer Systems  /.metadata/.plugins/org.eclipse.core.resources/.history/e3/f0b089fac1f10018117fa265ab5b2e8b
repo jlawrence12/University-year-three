@@ -1,0 +1,17 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class GradeTest {
+
+	@Test(expected = IllegalArgumentException.class)
+	void testBelowValidRange() {
+		Grade obj = new Grade(0);
+	}
+	
+	@Test
+	void testAboveValidRange() {
+		fail("Not yet implemented");
+	}
+
+}

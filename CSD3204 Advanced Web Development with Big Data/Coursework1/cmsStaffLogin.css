@@ -1,0 +1,51 @@
+/* Author: Jovanie Lawrence
+      Date: 08/02/18    
+      Description: Style sheet for the peach cms admin login   */
+
+/* The background color for the login page */
+body {
+    background-color: #F3F2EE;
+
+}
+
+/* Styles for the box that staff can login */
+#box {
+    margin: auto;
+    background-color: #ffffff;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    margin: -150px 0 0 -250px;
+    left: 50%;
+    top: 50%;
+    border-radius: 50px;
+    border-width: thin;
+    box-shadow: 10px 10px 10px #999; 
+}
+
+/* Style for the text fields */
+#admin-login input {
+    margin: auto;
+    width: 300px;
+    margin-top: 40px;
+}
+
+/* Add margin space to the login button */
+#admin-login button {
+    margin-top: 20px;
+    background-color: #2471A3;
+    color: #ffffff;
+}
+
+/* Place logo in the centre*/
+#logo {
+    margin-left: 146px;
+    margin-top:-40px;
+    width:50px;
+    height:50px;
+}
+
+/* Centre box contents */
+#box-content {
+    margin-top: 50px;
+}

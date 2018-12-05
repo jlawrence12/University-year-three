@@ -1,0 +1,34 @@
+package carRace;
+
+public class Audi {
+	int speed,distance;
+	
+	
+	public Audi() {
+		speed = 10;
+		distance = 0;
+		
+	}
+	
+	public int getSpeed(){
+		return this.speed;
+	}
+	
+	public void setSpeed(int num) {
+		this.speed = num;
+	}
+	
+	public int getDistance(){
+		return this.distance;
+		
+	}
+	
+	public void setDistance(int dist) {
+		this.distance = dist;
+	}
+	
+	public void drive(int time) {
+		distance += speed * time;
+	}
+
+}

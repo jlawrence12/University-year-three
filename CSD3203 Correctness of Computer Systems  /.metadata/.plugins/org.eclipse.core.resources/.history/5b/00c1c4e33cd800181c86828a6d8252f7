@@ -1,0 +1,23 @@
+package carRace;
+
+public class Car {
+	
+	public int speed, distance;
+	public String driver;
+	
+	public Car(String Driver, int speed, int distance) {
+		this.speed = speed;
+		this.distance = distance;
+	}
+	
+	public void drive(int time) {
+		distance += speed * time;
+	}
+	
+	
+	public String toString() {
+		return ("Audi driver: " + 
+				"BMW driver: " +  )
+	}
+
+}

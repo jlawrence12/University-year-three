@@ -1,0 +1,9 @@
+package carRace;
+
+public class volkswagen {
+	
+	public volkswagen(int speed, distance){
+		
+	}
+
+}

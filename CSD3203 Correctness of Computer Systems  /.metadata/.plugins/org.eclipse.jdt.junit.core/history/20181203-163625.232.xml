@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DegreeTest.constructorInputTestNull" project="M00577156-JL" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="DegreeTest" time="0.002" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]">
+    <testcase name="constructorInputTestNull" classname="DegreeTest" time="0.002" displayname="constructorInputTestNull()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:constructorInputTestNull()]"/>
+  </testsuite>
+</testrun>

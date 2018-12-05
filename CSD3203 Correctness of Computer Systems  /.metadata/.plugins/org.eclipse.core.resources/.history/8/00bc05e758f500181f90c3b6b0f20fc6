@@ -1,0 +1,75 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class ProfileTest {
+
+	private Profile profile;
+
+	List<Grade> list1 = Arrays.asList(new Grade(1), new Grade(20), new Grade(15));
+
+	// THREE tests for the constructor, one for each distinct way input can be
+	// invalid.
+	@Test
+	void constructorInputTest1() {
+		// profile = new Profile(list1);
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Profile(list1));
+	}
+
+	@Test
+	void constructorInputTest2() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Profile(new ArrayList()));
+	}
+
+	@Test
+	void constructorInputTest3() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Profile(new ArrayList()));
+	}
+
+	/*
+	 * SIX tests, one for each possible combination of Classification and truth
+	 * value (whether the profile is clear or not) as an equivalence class.
+	 */
+
+	@Test
+	void givenClassificationFirst() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.First);
+	}
+
+	@Test
+	void givenClassificationUpperSecond() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.UpperSecond);
+	}
+
+	@Test
+	void givenClassificationLowerSecond() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.LowerSecond);
+	}
+
+	@Test
+	void givenClassificationThird() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.Third);
+	}
+
+	@Test
+	void givenClassificationDiscretion() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.Discretion);
+	}
+
+	@Test
+	void givenClassificationFail() {
+		Classification classification = profile.classify();
+		assertEquals(classification, Classification.Fail);
+	}
+
+}

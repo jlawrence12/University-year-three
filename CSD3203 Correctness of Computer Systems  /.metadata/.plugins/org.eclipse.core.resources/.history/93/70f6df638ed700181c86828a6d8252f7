@@ -1,0 +1,14 @@
+package carRace;
+
+public class Person {
+	
+	String name;
+	
+	 Person() {
+		
+	
+	}
+	
+	
+
+}

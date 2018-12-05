@@ -1,0 +1,109 @@
+
+#logIn-form,#registerForm{
+
+    margin-left: 20%;
+}
+
+body{
+    background-color:#C8CCCD;
+}
+h3{
+    margin-left: 45%;
+}
+.sub-header{
+    margin-left: 45%;
+
+}
+
+
+.modal-header {
+    background-color: #062029;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+/* Style and colour the text boxes in throught the website */
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+#qty{
+
+    width:20px;
+    height:20px;
+}
+
+.brand{
+
+    margin-left: 27%;
+     display: inline-block; 
+    vertical-align: top; 
+    box-shadow: 10px 10px 10px #999; 
+    border: 8px solid #333;
+}
+
+.add{
+
+    margin-left: 40px;
+}
+
+
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+ background-color: #062029;
+ color:#ffffff;
+}
+
+.table-striped>thead>tr:nth-child(odd)>th {
+ background-color: #062029;
+ color:#ffffff;
+}
+
+#logo{
+
+    margin-top: -15px;
+}
+
+#confirm{
+
+   margin-left: 35%;
+}
+
+#tick{
+
+    margin-left: 10%;
+}
+.col-lg-9{
+    margin-left: 12%;
+    background-color:#FFFFFF;
+}
+#panel{
+    background-color: #E7E7E7;
+}
+/* When activated, the text field will change colour */
+
+input:focus {
+    background-color: #E8E8E8;
+}
+/*  Set no colour outline for active links and change text colour */
+
+a:focus {
+    outline: 0;
+    color: crimson;
+}
+/* Setthe feature of the text area on the "contact us" modal */
+
+#search{
+
+    margin-left:
+     
+}
+/* Set default properties for all paragraphs */
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+}

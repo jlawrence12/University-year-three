@@ -1,0 +1,30 @@
+package carRace;
+
+public class volkswagen {
+	
+	int speed, distance;
+	
+	public volkswagen(){
+		speed = 10;
+		distance = 0;
+	}
+	
+	public int getSpeed(){
+		return this.speed;
+	}
+	
+	public void setSpeed(int num) {
+		this.speed = num;
+	}
+	
+	public int getDistance(){
+		return this.distance;
+		
+	}
+	
+	public void setDistance(int dist) {
+		this.distance = dist;
+	}
+	
+
+}

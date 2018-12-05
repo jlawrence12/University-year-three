@@ -1,0 +1,13 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ProfileTest {
+
+	//THREE tests for the constructor, one for each distinct way input can be invalid.
+	@Test
+	void test() {
+		
+	}
+
+}

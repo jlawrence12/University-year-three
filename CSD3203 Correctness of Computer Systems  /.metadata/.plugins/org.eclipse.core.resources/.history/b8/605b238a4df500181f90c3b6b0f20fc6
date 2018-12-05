@@ -1,0 +1,145 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.AnnotatedType;
+import java.lang.reflect.Executable;
+import java.lang.reflect.TypeVariable;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+class GradeTest {
+	
+	private Grade grade;
+	
+	private Grade getGrade(int i) {
+		Grade obj = new Grade(i);
+		return obj;
+	}
+	
+	//One tests for inputs below and above the valid range for the constructor.
+	@Test
+	void testBelowValidRange() {
+		 Assertions.assertThrows(IllegalArgumentException.class, () -> getGrade(0));
+	}
+	
+	//TWO tests for inputs below and above the valid range for the constructor.
+	@Test
+	void testAbovteValidRange() {
+		 Assertions.assertThrows(IllegalArgumentException.class, () -> getGrade(21));
+	}
+	
+	//ONE test for a valid input, checking that getPoints returns the right value.
+	@Test
+	void givenVaildInputGetPointReturnCorrect() {
+		grade = new Grade(4);
+		assertEquals(grade.getPoints(), 4);
+	}
+	
+
+	//FIVE tests for classify, using Classifications as equivalence classes.
+	@Test 
+	void givenGradeClassifyFail() {
+		grade = new Grade(20);
+		
+		Classification classification = grade.classify();
+		assertEquals( Classification.Fail, classification);
+	}
+	@Test 
+	void givenGradeClassifyFirst() {
+		grade = new Grade(2);
+		
+		Classification classification = grade.classify();
+		assertEquals(Classification.First, classification);
+	}
+	@Test 
+	void givenGradeClassifyUpperSecound() {
+		grade = new Grade(8);
+		
+		Classification classification = grade.classify();
+		assertEquals(Classification.UpperSecond, classification);
+	}
+	@Test 
+	void givenGradeClassifyLowerSecound() {
+		grade = new Grade(11);
+		
+		Classification classification = grade.classify();
+		assertEquals(Classification.LowerSecond, classification);
+	}
+	@Test 
+	void givenGradeClassifyThird() {
+		grade = new Grade(13);
+		
+		Classification classification = grade.classify();
+		assertEquals(Classification.Third, classification);
+	}
+	
+	//TWO tests for inputs below and above the valid range for fromPercentage.
+	@Test
+	void inputsBelowValidRange() {
+		grade = new Grade(1);
+		Assertions.assertThrows(IllegalArgumentException.class, () -> grade.fromPercentage(20));
+	}
+
+	@Test
+	void inputsAboveValidRange() {
+		grade = new Grade(10);
+		Assertions.assertThrows(IllegalArgumentException.class, () -> grade.fromPercentage(70));
+		
+	}
+	
+	/*TWENTY tests for fromPercentage, using each point in the 20-point scale as
+	an equivalence class. */
+	
+	@Test
+	void pointsScale1() {
+		Grade grade = Grade.fromPercentage(100);
+		
+		int acutalResult = grade.getPoints();
+		int expectedResult = 1;
+		 assertEquals(expectedResult, acutalResult);
+	}
+	
+	@Test
+	void upperSecondPointScale() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(5), 5));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(6), 6));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(7), 7));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(8), 8));
+		
+	}
+	
+	@Test
+	void lowerSecondPointScale() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(9), 9));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(10), 10));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(11), 11));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(12), 12));
+		
+	}
+	
+	@Test
+	void thirdPointscale() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(13), 13));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(14), 14));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(15), 15));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(16), 16));
+		
+	}
+	
+	@Test
+	void failPointScale() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(17), 17));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(18), 18));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(19), 19));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(grade.fromPercentage(20), 20));
+		
+		
+	}
+	
+	
+	
+
+}

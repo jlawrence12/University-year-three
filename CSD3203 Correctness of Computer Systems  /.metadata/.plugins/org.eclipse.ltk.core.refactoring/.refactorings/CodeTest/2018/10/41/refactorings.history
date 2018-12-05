@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Challenge1.rotateArray(...)&apos; to &apos;sortArray&apos;&#x0A;- Original project: &apos;CodeTest&apos;&#x0A;- Original element: &apos;Challenge1.rotateArray(...)&apos;&#x0A;- Renamed element: &apos;Challenge1.sortArray(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;rotateArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;{Challenge1.java[Challenge1~rotateArray~\[I" name="sortArray" references="true" stamp="1539164111686" version="1.0"/>
+</session>

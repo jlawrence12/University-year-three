@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DegreeTest" project="M00577156-JL" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="DegreeTest" time="0.008" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]">
+    <testcase name="constructorInputTestFailGrade" classname="DegreeTest" time="0.001" displayname="constructorInputTestFailGrade()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:constructorInputTestFailGrade()]"/>
+    <testcase name="contructorInputTestDoesNotContainFourGrades" classname="DegreeTest" time="0.0" displayname="contructorInputTestDoesNotContainFourGrades()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:contructorInputTestDoesNotContainFourGrades()]"/>
+    <testcase name="constructorInputTestNull" classname="DegreeTest" time="0.007" displayname="constructorInputTestNull()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:constructorInputTestNull()]"/>
+  </testsuite>
+</testrun>

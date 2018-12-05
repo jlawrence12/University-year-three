@@ -1,0 +1,31 @@
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+public class Grade {
+	private final int points;
+
+	public int getPoints() {
+		return points;
+	}
+
+	public Grade(int input) throws IllegalArgumentException {
+		if(input<1 || input>20) 
+			throw new IllegalArgumentException();
+		else {
+			points = input;
+		}
+	}
+	
+	// Your additions/changes below this line
+
+	public Classification classify() {
+		return Classification.Fail;
+	}
+	
+	public static Grade fromPercentage(int g) throws IllegalArgumentException {
+		throw new IllegalArgumentException();
+		
+	}
+}

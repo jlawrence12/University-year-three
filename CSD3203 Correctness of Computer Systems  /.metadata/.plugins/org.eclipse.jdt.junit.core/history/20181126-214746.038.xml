@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GradeTest" project="M00577156-JL" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="GradeTest" time="0.007" uniqueid="[engine:junit-jupiter]/[class:GradeTest]">
+    <testcase name="testAboveValidRange" classname="GradeTest" time="0.0" displayname="testAboveValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testAboveValidRange()]"/>
+    <testcase name="givenVaildInputGetPointReturnCorrect" classname="GradeTest" time="0.001" displayname="givenVaildInputGetPointReturnCorrect()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenVaildInputGetPointReturnCorrect()]"/>
+    <testcase name="testBelowValidRange" classname="GradeTest" time="0.006" displayname="testBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testBelowValidRange()]"/>
+  </testsuite>
+</testrun>

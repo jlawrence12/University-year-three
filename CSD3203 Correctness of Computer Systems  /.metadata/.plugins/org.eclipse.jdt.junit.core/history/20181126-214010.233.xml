@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GradeTest" project="M00577156-JL" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="GradeTest" time="0.003" uniqueid="[engine:junit-jupiter]/[class:GradeTest]">
+    <testcase name="testAboveValidRange" classname="GradeTest" time="0.0" displayname="testAboveValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testAboveValidRange()]"/>
+    <testcase name="testBelowValidRange" classname="GradeTest" time="0.003" displayname="testBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testBelowValidRange()]"/>
+  </testsuite>
+</testrun>

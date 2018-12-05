@@ -1,0 +1,31 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class ProfileTest {
+	
+	private Profile profile;
+	
+	Profile list1 = new Profile();
+
+	//THREE tests for the constructor, one for each distinct way input can be invalid.
+	@Test
+	void constructorInputTest1() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertArrayEquals()
+	}
+	@Test
+	void constructorInputTest2() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> 
+	}
+	@Test
+	void constructorInputTest3() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> 
+	}
+
+	private Profile getProfile(List<Grade>){
+		Profile proObj = new Profile(i);
+		
+		return proObj;
+	}
+}

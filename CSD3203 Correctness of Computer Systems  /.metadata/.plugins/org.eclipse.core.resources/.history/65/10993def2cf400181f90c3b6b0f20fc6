@@ -1,0 +1,23 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class DegreeTest {
+	
+	private Degree degree;
+	
+	List1<Grade> list1 = Arrays.asList(
+			new Grade(0),
+			new Grade(15),
+			new Grade(21));
+
+	//THREE tests for the constructor, one for each distinct way input can be invalid.
+	@Test
+	void contructorInputTest() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Degree());
+	}
+
+}

@@ -1,0 +1,10 @@
+package carRace;
+
+public class Bmw {
+
+	public Bmw(int speed, int distance){
+		speed = 10;
+		distance = 0;
+		
+	}
+}

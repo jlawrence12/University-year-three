@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="(default package)" project="M00577156-JL" tests="47" started="47" failures="2" errors="2" ignored="0">
+  <testsuite name="ProfileTest" time="0.027" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]">
+    <testcase name="constructorInputTestFailGrade" classname="ProfileTest" time="0.002" displayname="constructorInputTestFailGrade()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestFailGrade()]"/>
+    <testcase name="classificationUpperSecoundAndBorderlineTest" classname="ProfileTest" time="0.006" displayname="classificationUpperSecoundAndBorderlineTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationUpperSecoundAndBorderlineTest()]"/>
+    <testcase name="classificationFirstAndBorderlineTest" classname="ProfileTest" time="0.005" displayname="classificationFirstAndBorderlineTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationFirstAndBorderlineTest()]"/>
+    <testcase name="classificationUpperSecondAndClearTest" classname="ProfileTest" time="0.001" displayname="classificationUpperSecondAndClearTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationUpperSecondAndClearTest()]"/>
+    <testcase name="constructorInputTestEmpty" classname="ProfileTest" time="0.002" displayname="constructorInputTestEmpty()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestEmpty()]"/>
+    <testcase name="classificationLowerSecondTest" classname="ProfileTest" time="0.001" displayname="classificationLowerSecondTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationLowerSecondTest()]"/>
+    <testcase name="classificationThirdTest" classname="ProfileTest" time="0.001" displayname="classificationThirdTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationThirdTest()]"/>
+    <testcase name="classificationFirstAndClearTest" classname="ProfileTest" time="0.001" displayname="classificationFirstAndClearTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationFirstAndClearTest()]"/>
+    <testcase name="constructorInputTestNull" classname="ProfileTest" time="0.008" displayname="constructorInputTestNull()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestNull()]"/>
+  </testsuite>
+  <testsuite name="DegreeTest" time="0.027" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]">
+    <testcase name="classificationFirstTest" classname="DegreeTest" time="0.01" displayname="classificationFirstTest()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:classificationFirstTest()]">
+      <error>java.lang.IllegalArgumentException
+	at Degree.&lt;init&gt;(Degree.java:23)
+	at DegreeTest.classificationFirstTest(DegreeTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:436)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:113)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:58)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:112)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:55)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+
+</error>
+    </testcase>
+    <testcase name="classificationDiscretionTest" classname="DegreeTest" time="0.001" displayname="classificationDiscretionTest()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:classificationDiscretionTest()]">
+      <error>java.lang.IllegalArgumentException
+	at Degree.&lt;init&gt;(Degree.java:28)
+	at DegreeTest.classificationDiscretionTest(DegreeTest.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:436)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:113)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:58)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:112)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:55)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+
+</error>
+    </testcase>
+    <testcase name="constructorInputTestFailGrade" classname="DegreeTest" time="0.002" displayname="constructorInputTestFailGrade()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:constructorInputTestFailGrade()]"/>
+    <testcase name="classificationUpperSecondTest" classname="DegreeTest" time="0.004" displayname="classificationUpperSecondTest()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:classificationUpperSecondTest()]">
+      <failure>
+        <expected>UpperSecond</expected>
+        <actual>Third</actual>org.opentest4j.AssertionFailedError: expected: &lt;UpperSecond&gt; but was: &lt;Third&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:186)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:181)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:486)
+	at DegreeTest.classificationUpperSecondTest(DegreeTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:436)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:113)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:58)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:112)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:55)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+
+</failure>
+    </testcase>
+    <testcase name="classificationLowerSecondTest" classname="DegreeTest" time="0.002" displayname="classificationLowerSecondTest()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:classificationLowerSecondTest()]">
+      <failure>
+        <expected>LowerSecond</expected>
+        <actual>Third</actual>org.opentest4j.AssertionFailedError: expected: &lt;LowerSecond&gt; but was: &lt;Third&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:52)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:186)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:181)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:486)
+	at DegreeTest.classificationLowerSecondTest(DegreeTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:436)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:170)
+	at org.junit.jupiter.engine.execution.ThrowableCollector.execute(ThrowableCollector.java:40)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:113)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:58)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:112)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$2(HierarchicalTestExecutor.java:120)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.lambda$executeRecursively$3(HierarchicalTestExecutor.java:120)
+	at org.junit.platform.engine.support.hierarchical.SingleTestExecutor.executeSafely(SingleTestExecutor.java:66)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.executeRecursively(HierarchicalTestExecutor.java:108)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor$NodeExecutor.execute(HierarchicalTestExecutor.java:79)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:55)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:43)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+
+</failure>
+    </testcase>
+    <testcase name="classificationThirdTest" classname="DegreeTest" time="0.001" displayname="classificationThirdTest()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:classificationThirdTest()]"/>
+    <testcase name="contructorInputTestDoesNotContainFourGrades" classname="DegreeTest" time="0.001" displayname="contructorInputTestDoesNotContainFourGrades()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:contructorInputTestDoesNotContainFourGrades()]"/>
+    <testcase name="constructorInputTestNull" classname="DegreeTest" time="0.006" displayname="constructorInputTestNull()" uniqueid="[engine:junit-jupiter]/[class:DegreeTest]/[method:constructorInputTestNull()]"/>
+  </testsuite>
+  <testsuite name="GradeTest" time="0.062" uniqueid="[engine:junit-jupiter]/[class:GradeTest]">
+    <testcase name="givenGradeClassifyFirst" classname="GradeTest" time="0.001" displayname="givenGradeClassifyFirst()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyFirst()]"/>
+    <testcase name="givenGradeClassifyThird" classname="GradeTest" time="0.001" displayname="givenGradeClassifyThird()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyThird()]"/>
+    <testcase name="fromPercentageBelowValidRange" classname="GradeTest" time="0.002" displayname="fromPercentageBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:fromPercentageBelowValidRange()]"/>
+    <testcase name="pointsScaleMinus1" classname="GradeTest" time="0.001" displayname="pointsScaleMinus1()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScaleMinus1()]"/>
+    <testcase name="givenVaildInputGetPointReturnCorrect" classname="GradeTest" time="0.003" displayname="givenVaildInputGetPointReturnCorrect()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenVaildInputGetPointReturnCorrect()]"/>
+    <testcase name="givenGradeClassifyFail" classname="GradeTest" time="0.004" displayname="givenGradeClassifyFail()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyFail()]"/>
+    <testcase name="testBelowValidRange" classname="GradeTest" time="0.001" displayname="testBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testBelowValidRange()]"/>
+    <testcase name="givenGradeClassifyLowerSecound" classname="GradeTest" time="0.002" displayname="givenGradeClassifyLowerSecound()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyLowerSecound()]"/>
+    <testcase name="testAbovteValidRange" classname="GradeTest" time="0.001" displayname="testAbovteValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testAbovteValidRange()]"/>
+    <testcase name="fromPercentageAboveValidRange" classname="GradeTest" time="0.001" displayname="fromPercentageAboveValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:fromPercentageAboveValidRange()]"/>
+    <testcase name="pointsScale1" classname="GradeTest" time="0.001" displayname="pointsScale1()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale1()]"/>
+    <testcase name="pointsScale2" classname="GradeTest" time="0.0" displayname="pointsScale2()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale2()]"/>
+    <testcase name="pointsScale3" classname="GradeTest" time="0.001" displayname="pointsScale3()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale3()]"/>
+    <testcase name="pointsScale4" classname="GradeTest" time="0.001" displayname="pointsScale4()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale4()]"/>
+    <testcase name="pointsScale5" classname="GradeTest" time="0.001" displayname="pointsScale5()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale5()]"/>
+    <testcase name="pointsScale6" classname="GradeTest" time="0.001" displayname="pointsScale6()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale6()]"/>
+    <testcase name="pointsScale7" classname="GradeTest" time="0.001" displayname="pointsScale7()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale7()]"/>
+    <testcase name="pointsScale8" classname="GradeTest" time="0.001" displayname="pointsScale8()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale8()]"/>
+    <testcase name="pointsScale9" classname="GradeTest" time="0.0" displayname="pointsScale9()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale9()]"/>
+    <testcase name="givenGradeClassifyUpperSecound" classname="GradeTest" time="0.001" displayname="givenGradeClassifyUpperSecound()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyUpperSecound()]"/>
+    <testcase name="pointsScale10" classname="GradeTest" time="0.001" displayname="pointsScale10()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale10()]"/>
+    <testcase name="pointsScale11" classname="GradeTest" time="0.001" displayname="pointsScale11()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale11()]"/>
+    <testcase name="pointsScale12" classname="GradeTest" time="0.001" displayname="pointsScale12()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale12()]"/>
+    <testcase name="pointsScale13" classname="GradeTest" time="0.001" displayname="pointsScale13()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale13()]"/>
+    <testcase name="pointsScale14" classname="GradeTest" time="0.003" displayname="pointsScale14()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale14()]"/>
+    <testcase name="pointsScale15" classname="GradeTest" time="0.001" displayname="pointsScale15()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale15()]"/>
+    <testcase name="pointsScale16" classname="GradeTest" time="0.001" displayname="pointsScale16()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale16()]"/>
+    <testcase name="pointsScale17" classname="GradeTest" time="0.007" displayname="pointsScale17()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale17()]"/>
+    <testcase name="pointsScale18" classname="GradeTest" time="0.001" displayname="pointsScale18()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale18()]"/>
+    <testcase name="pointsScale19" classname="GradeTest" time="0.02" displayname="pointsScale19()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale19()]"/>
+  </testsuite>
+</testrun>

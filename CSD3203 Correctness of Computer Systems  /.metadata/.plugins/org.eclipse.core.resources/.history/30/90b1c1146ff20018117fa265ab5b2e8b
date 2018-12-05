@@ -1,0 +1,34 @@
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class ProfileTest {
+	
+	private Profile profile;
+	
+	List<Grade> list1 = Arrays.asList(
+			new Grade(0),
+			new Grade(21),
+			new Grade(30));
+	
+	//THREE tests for the constructor, one for each distinct way input can be invalid.
+	@Test
+	void constructorInputTest1() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertThast(profile.equals(list1)(0), 0));
+	}
+	@Test
+	void constructorInputTest2() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(21, null));
+	}
+	@Test
+	void constructorInputTest3() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> assertEquals(30, null));
+	}
+
+
+}

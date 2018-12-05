@@ -1,0 +1,32 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.AnnotatedType;
+import java.lang.reflect.Executable;
+import java.lang.reflect.TypeVariable;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+class GradeTest {
+
+	@Test
+	void testBelowValidRange() {
+		 Assertions.assertThrows(IllegalArgumentException.class, () -> getGrade(0));
+
+
+	}
+	
+	private Grade getGrade(int i) {
+		// TODO Auto-generated method stub
+		Grade obj = new Grade(i);
+		return obj;
+	}
+
+	@Test
+	void testAboveValidRange() {
+		fail("Not yet implemented");
+	}
+
+}

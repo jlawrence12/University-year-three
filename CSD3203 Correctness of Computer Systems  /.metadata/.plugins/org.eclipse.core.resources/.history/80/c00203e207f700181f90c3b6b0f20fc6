@@ -1,0 +1,50 @@
+
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class DegreeTest {
+
+	private Degree degree;
+
+	List<Grade> list1;
+	List<Grade> list2;
+
+	// THREE tests for the constructor, one for each distinct way input can be
+	// invalid.
+	@Test
+	void constructorInputTestFailGrade() {
+		list1 = Arrays.asList(new Grade(7), new Grade(12), new Grade(13), new Grade(20));
+		list2 = Arrays.asList(new Grade(9), new Grade(15), new Grade(17), new Grade(19));
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Degree(list1, list2));
+	}
+
+	@Test
+	void contructorInputTest2() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Degree(null, null));
+	}
+
+	@Test
+	void constructorInputTestNull() {
+		Assertions.assertThrows(IllegalArgumentException.class, () -> new Degree(list1.isEmpty(), list2.isEmpty()));
+	}
+
+	// FIVE tests, using Classifications as equivalence classes.
+	@Test
+	void givenGradeClassifyFail() {
+		degree = new Degree(list1, list2);
+
+		Classification classification = degree.classify();
+		assertEquals(classification, Classification.Fail);
+	}
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProfileTest" project="M00577156-JL" tests="9" started="9" failures="0" errors="0" ignored="0">
+  <testsuite name="ProfileTest" time="0.016" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]">
+    <testcase name="constructorInputTestFailGrade" classname="ProfileTest" time="0.001" displayname="constructorInputTestFailGrade()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestFailGrade()]"/>
+    <testcase name="classificationUpperSecoundAndBorderlineTest" classname="ProfileTest" time="0.0" displayname="classificationUpperSecoundAndBorderlineTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationUpperSecoundAndBorderlineTest()]"/>
+    <testcase name="classificationFirstAndBorderlineTest" classname="ProfileTest" time="0.0" displayname="classificationFirstAndBorderlineTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationFirstAndBorderlineTest()]"/>
+    <testcase name="classificationUpperSecondAndClearTest" classname="ProfileTest" time="0.001" displayname="classificationUpperSecondAndClearTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationUpperSecondAndClearTest()]"/>
+    <testcase name="constructorInputTestEmpty" classname="ProfileTest" time="0.001" displayname="constructorInputTestEmpty()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestEmpty()]"/>
+    <testcase name="classificationLowerSecondTest" classname="ProfileTest" time="0.001" displayname="classificationLowerSecondTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationLowerSecondTest()]"/>
+    <testcase name="classificationThirdTest" classname="ProfileTest" time="0.001" displayname="classificationThirdTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationThirdTest()]"/>
+    <testcase name="classificationFirstAndClearTest" classname="ProfileTest" time="0.001" displayname="classificationFirstAndClearTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationFirstAndClearTest()]"/>
+    <testcase name="constructorInputTestNull" classname="ProfileTest" time="0.01" displayname="constructorInputTestNull()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTestNull()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GradeTest" project="M00577156-JL" tests="30" started="30" failures="0" errors="0" ignored="0">
+  <testsuite name="GradeTest" time="0.024" uniqueid="[engine:junit-jupiter]/[class:GradeTest]">
+    <testcase name="givenGradeClassifyFirst" classname="GradeTest" time="0.0" displayname="givenGradeClassifyFirst()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyFirst()]"/>
+    <testcase name="givenGradeClassifyThird" classname="GradeTest" time="0.0" displayname="givenGradeClassifyThird()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyThird()]"/>
+    <testcase name="fromPercentageBelowValidRange" classname="GradeTest" time="0.0" displayname="fromPercentageBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:fromPercentageBelowValidRange()]"/>
+    <testcase name="pointsScaleMinus1" classname="GradeTest" time="0.0" displayname="pointsScaleMinus1()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScaleMinus1()]"/>
+    <testcase name="givenVaildInputGetPointReturnCorrect" classname="GradeTest" time="0.001" displayname="givenVaildInputGetPointReturnCorrect()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenVaildInputGetPointReturnCorrect()]"/>
+    <testcase name="givenGradeClassifyFail" classname="GradeTest" time="0.001" displayname="givenGradeClassifyFail()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyFail()]"/>
+    <testcase name="testBelowValidRange" classname="GradeTest" time="0.002" displayname="testBelowValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testBelowValidRange()]"/>
+    <testcase name="givenGradeClassifyLowerSecound" classname="GradeTest" time="0.001" displayname="givenGradeClassifyLowerSecound()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyLowerSecound()]"/>
+    <testcase name="testAbovteValidRange" classname="GradeTest" time="0.001" displayname="testAbovteValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:testAbovteValidRange()]"/>
+    <testcase name="fromPercentageAboveValidRange" classname="GradeTest" time="0.001" displayname="fromPercentageAboveValidRange()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:fromPercentageAboveValidRange()]"/>
+    <testcase name="pointsScale1" classname="GradeTest" time="0.0" displayname="pointsScale1()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale1()]"/>
+    <testcase name="pointsScale2" classname="GradeTest" time="0.001" displayname="pointsScale2()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale2()]"/>
+    <testcase name="pointsScale3" classname="GradeTest" time="0.001" displayname="pointsScale3()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale3()]"/>
+    <testcase name="pointsScale4" classname="GradeTest" time="0.0" displayname="pointsScale4()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale4()]"/>
+    <testcase name="pointsScale5" classname="GradeTest" time="0.001" displayname="pointsScale5()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale5()]"/>
+    <testcase name="pointsScale6" classname="GradeTest" time="0.0" displayname="pointsScale6()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale6()]"/>
+    <testcase name="pointsScale7" classname="GradeTest" time="0.001" displayname="pointsScale7()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale7()]"/>
+    <testcase name="pointsScale8" classname="GradeTest" time="0.001" displayname="pointsScale8()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale8()]"/>
+    <testcase name="pointsScale9" classname="GradeTest" time="0.0" displayname="pointsScale9()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale9()]"/>
+    <testcase name="givenGradeClassifyUpperSecound" classname="GradeTest" time="0.001" displayname="givenGradeClassifyUpperSecound()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:givenGradeClassifyUpperSecound()]"/>
+    <testcase name="pointsScale10" classname="GradeTest" time="0.0" displayname="pointsScale10()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale10()]"/>
+    <testcase name="pointsScale11" classname="GradeTest" time="0.001" displayname="pointsScale11()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale11()]"/>
+    <testcase name="pointsScale12" classname="GradeTest" time="0.001" displayname="pointsScale12()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale12()]"/>
+    <testcase name="pointsScale13" classname="GradeTest" time="0.0" displayname="pointsScale13()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale13()]"/>
+    <testcase name="pointsScale14" classname="GradeTest" time="0.001" displayname="pointsScale14()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale14()]"/>
+    <testcase name="pointsScale15" classname="GradeTest" time="0.001" displayname="pointsScale15()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale15()]"/>
+    <testcase name="pointsScale16" classname="GradeTest" time="0.001" displayname="pointsScale16()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale16()]"/>
+    <testcase name="pointsScale17" classname="GradeTest" time="0.0" displayname="pointsScale17()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale17()]"/>
+    <testcase name="pointsScale18" classname="GradeTest" time="0.001" displayname="pointsScale18()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale18()]"/>
+    <testcase name="pointsScale19" classname="GradeTest" time="0.005" displayname="pointsScale19()" uniqueid="[engine:junit-jupiter]/[class:GradeTest]/[method:pointsScale19()]"/>
+  </testsuite>
+</testrun>

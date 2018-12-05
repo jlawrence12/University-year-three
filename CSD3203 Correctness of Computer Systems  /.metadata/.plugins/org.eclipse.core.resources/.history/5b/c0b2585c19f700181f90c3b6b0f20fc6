@@ -1,0 +1,80 @@
+
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Degree {
+	// Your additions/changes below this line
+
+	private List<Grade> year2 = new ArrayList<Grade>();
+	private List<Grade> year3 = new ArrayList<Grade>();
+
+	public Degree(List<Grade> year2, List<Grade> year3) {
+		if (null == year2 || null == year3) {
+			if(year2.size() != 3 && year3.size() != 3) {
+			throw new IllegalArgumentException();
+			}
+		}
+
+		for (int i = 0; i < year2.size(); i++) {
+
+			if (year2.get(i).classify() == Classification.Fail) {
+				throw new IllegalArgumentException();
+			} else {
+
+				this.year2.add(year2.get(i));
+			}
+		}
+
+		for (int i = 0; i < year3.size(); i++) {
+
+			if (year3.get(i).classify() == Classification.Fail) {
+				throw new IllegalArgumentException();
+			} else {
+
+				this.year3.add(year3.get(i));
+			}
+		}
+
+	}
+
+	public Classification classify() {
+
+		if (calculateClassPercentage(Classification.First) >= 50) {
+			return Classification.First;
+
+		} else if ((calculateClassPercentage(Classification.UpperSecond)
+				+ calculateClassPercentage(Classification.First)) >= 50) {
+			return Classification.UpperSecond;
+
+		} else if ((calculateClassPercentage(Classification.LowerSecond)
+				+ calculateClassPercentage(Classification.UpperSecond)
+				+ calculateClassPercentage(Classification.First)) >= 50) {
+			return Classification.LowerSecond;
+
+		} else
+			return Classification.Third;
+	}
+
+	/**
+	 * private class which calculates a classification
+	 */
+	private int calculateClassPercentage(Classification classification) {
+		int classGradeCount = 0;
+
+		for (Grade grade : year2) {
+
+			if (grade.classify() == classification) {
+				classGradeCount++;
+			}
+		}
+
+		int classGradePercentage = classGradeCount * 100 / year2.size();
+
+		return classGradePercentage;
+	}
+}

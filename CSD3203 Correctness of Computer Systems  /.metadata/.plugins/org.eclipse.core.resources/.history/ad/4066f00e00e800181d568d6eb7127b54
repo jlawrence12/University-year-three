@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Main {
+
+	class Challenge {
+	  // Complete this function to return either
+	  // "Hello, [name]!" or "Hello there!"
+	  // based on the input
+	  
+	  public static String sayHello(String name) {
+	    Scanner sc = new Scanner(System.in);
+	    
+	    System.out.println("Please input name");
+	    sc.nextLine();
+	   
+	    
+	        // You can print to STDOUT for debugging if you need to:
+	    System.out.print(name);
+	    
+	    // but you need to return the correct value in order to pass the challenge
+	    
+	    return name; // TODO: return the correct value
+	  }
+	}

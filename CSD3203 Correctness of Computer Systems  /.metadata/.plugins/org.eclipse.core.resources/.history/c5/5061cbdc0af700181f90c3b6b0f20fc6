@@ -1,0 +1,46 @@
+
+/* Author: Jovanie Lawrence                          *
+ * Student number: M00577156 						 *
+ * Module: CSD3202 – Correctness in Computer Systems *
+ * Coursework Project 1 							 */
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Degree {
+	// Your additions/changes below this line
+
+	private List<Grade> year2 = new ArrayList<Grade>();
+	private List<Grade> year3 = new ArrayList<Grade>();
+
+	public Degree(List<Grade> year2, List<Grade> year3) {
+		if (null == year2 || null == year3) {
+			throw new IllegalArgumentException();
+		}
+
+		for (int i = 0; i < year2.size(); i++) {
+
+			if (gradeList.get(i).classify() == Classification.Fail) {
+				throw new IllegalArgumentException();
+			} else {
+
+				this.gradeList.add(gradeList.get(i));
+			}
+		}
+
+		for (int i = 0; i < year3.size(); i++) {
+
+			if (gradeList.get(i).classify() == Classification.Fail) {
+				throw new IllegalArgumentException();
+			} else {
+
+				this.gradeList.add(gradeList.get(i));
+			}
+		}
+
+	}
+
+	public Classification classify() {
+		return Classification.Third;
+	}
+}

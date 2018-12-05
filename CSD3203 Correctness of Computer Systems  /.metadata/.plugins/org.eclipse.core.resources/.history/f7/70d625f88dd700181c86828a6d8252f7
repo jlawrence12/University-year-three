@@ -1,0 +1,9 @@
+package carRace;
+
+public class Person {
+	
+	public Person() {
+		
+	}
+
+}

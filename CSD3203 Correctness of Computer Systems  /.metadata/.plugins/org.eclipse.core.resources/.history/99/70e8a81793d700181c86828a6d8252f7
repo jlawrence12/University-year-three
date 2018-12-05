@@ -1,0 +1,9 @@
+package carRace;
+
+public class Car {
+	
+	int speed, distance;
+	
+	public Car(int speed, int distance)
+
+}

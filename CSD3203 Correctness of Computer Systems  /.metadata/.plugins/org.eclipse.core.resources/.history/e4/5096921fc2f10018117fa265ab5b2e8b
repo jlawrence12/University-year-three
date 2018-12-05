@@ -1,0 +1,19 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+class GradeTest {
+
+	@Test
+	void testBelowValidRange() {
+		Assertions.assertTrue(IllegalArgumentException.class, new Grade(0));
+		
+	}
+	
+	@Test
+	void testAboveValidRange() {
+		fail("Not yet implemented");
+	}
+
+}

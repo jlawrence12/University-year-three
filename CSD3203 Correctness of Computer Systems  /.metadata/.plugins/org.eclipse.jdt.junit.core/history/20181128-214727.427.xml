@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProfileTest" project="M00577156-JL" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="ProfileTest" time="0.019" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]">
+    <testcase name="constructorInputTest1" classname="ProfileTest" time="0.002" displayname="constructorInputTest1()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTest1()]"/>
+    <testcase name="constructorInputTest2" classname="ProfileTest" time="0.006" displayname="constructorInputTest2()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTest2()]"/>
+    <testcase name="constructorInputTest3" classname="ProfileTest" time="0.011" displayname="constructorInputTest3()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:constructorInputTest3()]"/>
+  </testsuite>
+</testrun>

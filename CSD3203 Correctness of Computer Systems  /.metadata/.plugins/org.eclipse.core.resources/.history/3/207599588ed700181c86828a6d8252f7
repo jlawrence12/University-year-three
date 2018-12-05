@@ -1,0 +1,12 @@
+package carRace;
+
+public class Person {
+	
+	public Person() {
+		
+		int = 0; 
+	}
+	
+	
+
+}

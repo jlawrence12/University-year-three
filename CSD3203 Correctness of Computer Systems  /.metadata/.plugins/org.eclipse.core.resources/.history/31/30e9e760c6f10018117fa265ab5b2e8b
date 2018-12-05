@@ -1,0 +1,56 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.AnnotatedType;
+import java.lang.reflect.Executable;
+import java.lang.reflect.TypeVariable;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+class GradeTest {
+	
+	private Grade grade;
+	
+	//One tests for inputs below and above the valid range for the constructor.
+	@Test
+	void testBelowValidRange() {
+		 Assertions.assertThrows(IllegalArgumentException.class, () -> getGrade(0));
+
+	}
+	
+	//TWO tests for inputs below and above the valid range for the constructor.
+	@Test
+	void testAboveValidRange() {
+		 Assertions.assertThrows(IllegalArgumentException.class, () -> getGrade(21));
+
+	}
+	
+	//ONE test for a valid input, checking that getPoints returns the right value.
+	@Test
+	void givenVaildInputGetPointReturnCorrect() {
+		grade = new Grade(4);
+		assertEquals(grade.getPoints(), 4);
+		
+	}
+	
+	private Grade getGrade(int i) {
+		// TODO Auto-generated method stub
+		Grade obj = new Grade(i);
+		return obj;
+	}
+
+	
+	//FIVE tests for classify, using Classifications as equivalence classes.
+	@Test 
+	void givenGrdeClaffisy() {
+		grade = new Grade(8);
+		
+		Classification classification = grade.classify();
+		assertEquals(classification,  Classification.Fail);
+	}
+
+
+}

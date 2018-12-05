@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProfileTest.classificationFirstAndClearTest" project="M00577156-JL" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="ProfileTest" time="0.001" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]">
+    <testcase name="classificationFirstAndClearTest" classname="ProfileTest" time="0.001" displayname="classificationFirstAndClearTest()" uniqueid="[engine:junit-jupiter]/[class:ProfileTest]/[method:classificationFirstAndClearTest()]"/>
+  </testsuite>
+</testrun>

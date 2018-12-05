@@ -1,0 +1,843 @@
+
+
+
+
+
+
+
+
+	
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js">
+
+
+
+
+<head>
+
+	
+	
+	<title>Council Tax</title>
+	
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1" />
+    
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+	
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="format-detection" content="email=no" />
+
+
+
+
+	<!-- 
+	<link rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery-ui-1.8.6.custom.css"/>
+	<link rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery.ui.datepicker.css"/>
+	 -->
+	 
+	<link rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery-ui.structure.min.css"/>
+	<link rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery-ui.theme.min.css"/>
+	
+	 
+
+
+<!-- Cap-Wrapper version of Bootstrap -->
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/bootstrap-for-connect.css"/>
+
+
+	<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/circle.css"  >
+	<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jqPlot/jquery.jqplot.min.css">
+	<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/joyride/joyride-2.1.css"/>
+
+
+<!-- Connect overrides for Bootstrap -->
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/connect_bootstrap.min.css"/>
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/connect_bootstrap_extended.css"/>
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/capitastyles.css"/>
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/twitter-styles.css"/>  
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/capitaprint.css" media="print"/>
+
+
+	<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/align.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/fieldgroup.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/container-inline.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/clearfix.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/details.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/hidden.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/item-list.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/js.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/nowrap.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/position-container.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/progress.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/reset-appearance.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/resize.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/sticky-header.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/tablesort.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/tree-child.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/font-awesome.min.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/views.module.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/calendar.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/calendar_multiday.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/bootstrap.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/overrides.min.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/local_bootstrap.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/bootstrap-social.css" media="all">
+<link rel="stylesheet" href="/publicaccessbexlive/webresources/css/bexley/style.css" media="all">
+
+
+<!-- Housing Online 2014 Style Sheets -->
+<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/housingonline.css"/>
+
+	
+	<link type="text/css" rel="stylesheet" href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/css/capitacustomised.css"/>
+
+
+<!-- Stylesheet for mobile browsers -->
+
+
+<!-- Connect and Serve Style Sheets -->
+
+
+<!--[if lt IE 9]>
+	<script src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/html5shiv.js"></script>
+	<script src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/respond.min.js"></script>
+<![endif]-->
+
+
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery.min.js"></script>
+	<!--	The $connect variable releases the reference to a $ sign so that the $ reference can be used by a customer's jQuery library
+			without any conflict. For the library used by Google maps, there is another variable declared - $map. As it is declared straight after 
+			the Google jQuery library is loaded, it is used by the Google maps. 	
+	 -->
+	<script type="text/javascript">
+		var $connect = jQuery.noConflict();
+	</script>
+	
+	
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/twitterfeed.js"></script>
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/housing.js"></script>
+
+	
+	
+	<!--
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery.ui.core.min.js"></script>
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery.ui.widget.min.js"></script>
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery.ui.datepicker.min.js"></script>
+	-->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/ui/jquery-ui.min.js"></script>
+	
+	<script src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/bootstrap.min.js"></script>
+	
+	<!-- Carousal swipe plugin -->
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery.mobile.custom.min.js"></script>
+	
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/cap-scripts.js"></script>
+	
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/bootstrap-accessibility.js"></script>
+
+	<!-- MyService cycle widget -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/cycle/cycle2.min.js"></script>
+	
+	<!-- Joyride -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/joyride/jquery.joyride-2.1.js"></script>
+	
+	<!-- Superfish -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/superfish/jquery.hoverIntent.minified.js"></script>
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/superfish/superfish.min.js"></script>
+	
+	<!-- Modernizr -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/modernizr/modernizr.mq.js"></script>
+	
+	<script type="text/javascript">
+		var appendThirdPartyLinkId = "";
+		if(!validateString(appendThirdPartyLinkId)){
+			appendThirdPartyLinkId = "";
+		}
+		var appendChatGroupId = "";
+		if(!validateString(appendChatGroupId)){
+			appendChatGroupId = "";
+		}		
+		var connectURL = "https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive";
+	</script>
+	<script type="text/javascript"  id="capita-myservices" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/widget/connectwidget.js" >
+
+	</script>
+	
+	<!--  for dashboard and carousel widget -->
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/respond.min.js"></script>
+	
+	<!-- Watermark -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/watermark/jquery.watermark-1.1.1.min.js"></script>
+	
+	<!-- Lightbox pop up DIVs -->
+	<script type='text/javascript' src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jquery/plugins/lightboxme/jquery.lightbox_me.js"></script>
+	
+	<!-- Totals gage -->
+	<script src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/progress-circle.js"></script>
+	
+	<!-- jqPlot reports -->
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jqPlot/jquery.jqplot.min.js"></script>
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jqPlot/jqplot.barRenderer.min.js"></script>
+	<script type="text/javascript" src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/javascript/jqPlot/jqplot.categoryAxisRenderer.min.js"></script>
+	
+	
+
+
+
+
+
+	<link rel="shortcut icon" href="/publicaccessbexlive/webresources/images/bexley/favicon.ico" type="image/vnd.microsoft.icon">
+
+<title>Welcome to the London Borough of Bexley</title>
+
+
+    
+<!--[if lte IE 8]>
+<script src="/publicaccessbexlive/webresources/javascript/bexley/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+
+	
+	
+</head>
+
+
+	
+	
+		<body>
+	
+
+
+
+	
+		<a href="http://bexley-cms.cms-dev.firmstep.com/paying-your-council-tax#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+              <header class="navbar navbar-default" id="navbar" role="banner">
+		<div class="container">
+      <div class="navbar-header">
+          <div class="region region-navigation">
+          <a class="logo navbar-btn pull-left" href="https://www.bexley.gov.uk" title="Home" rel="home">
+      <img src="/publicaccessbexlive/webresources/images/bexley/logo.png" alt="Home">
+    </a>
+        <a class="name navbar-brand" href="http://bexley-cms.cms-dev.firmstep.com/" title="Home" rel="home">Bexley CMS Prototype</a>
+    
+  </div>
+
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+              </div>
+
+                    <div id="navbar-collapse" class="navbar-collapse collapse">
+            <div class="region region-navigation-collapsible">
+    <nav role="navigation" aria-labelledby="block-bexley-bootstrap-cdn-mainnavigation-menu" id="block-bexley-bootstrap-cdn-mainnavigation">
+      
+             
+  
+
+
+  </nav>
+
+  </div>
+
+        </div>
+      	            		  
+<div class="nav_bottom">
+  	<div class="container-fluid">
+    <div class="row">
+  <div class="region region-nav-bottom">
+
+
+  </div>
+
+         
+
+    </div>
+	</div>
+  </div>
+           	  
+	  </div>
+   
+    
+		 </header>
+		 <div role="main" class="main-container  js-quickedit-main-content">
+			<div class="container">
+				<div class="row">
+	
+
+
+
+			
+
+
+	<div class="cap-wrapper">
+		<div class="container-fluid">
+			
+			
+						
+				
+
+
+
+
+
+
+
+
+<div class="ad-styling">
+	<div id="headerlinks_headerlinks" class="headerlinks">
+		
+			
+			
+				
+					
+					
+					
+					<!-- 				<p>My profile widget turned on</p> -->
+					
+					
+					
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar--connect">
+	
+	
+	
+		
+		
+			
+				
+				
+				
+				
+			
+			
+			
+		
+		
+			
+				
+
+
+
+
+
+
+
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="container-fluid simulate-xs">
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-connect1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+		</button>
+		<div id="cap-mobile-header">
+			<a class="navbar-brand visible-xs-block" href="#"> <img src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/images/mobilelogo.png" alt="Header image" /> <!-- <img class="logo" src="https://presales.capita-software.co.uk/publicaccesslive/webresources/images/logo-inc_text-v2.png" alt="Manvers Borough Council" title="Manvers Borough Council"> <img alt="Brand" src="..."> -->
+			</a>
+		</div>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-connect1">
+		<ul class="nav navbar-nav nav-pills" id="capita-myprofile-widget-container-mobile">
+			
+				
+					
+						
+
+
+
+
+
+
+
+
+	
+		
+			<li role="presentation" class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/">Dashboard<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+		
+		
+	
+
+
+					
+				
+				
+					
+
+
+
+
+
+
+
+
+	
+	
+		<li role="presentation" class="active"><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/citizenportal/myservices.htm">My Services<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+	
+
+				
+				
+					
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+			
+				
+				
+					<li role="presentation" class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/citizenportal/myactivity.htm">My Activity<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+				
+			
+		
+	
+
+				
+				<noscript>
+					
+					
+
+
+
+
+
+
+
+
+	
+	
+		<li role="presentation" class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/citizenportal/myprofile.htm?_flowId=citizenportal/myprofile">My Account<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+	
+
+					
+
+
+
+
+
+
+
+
+	
+	
+		<li role="presentation" class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/citizenportal/myhistory.htm">My History<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+	
+
+					
+
+
+
+
+
+
+
+
+				</noscript>
+			
+			
+			
+				<noscript>
+					
+
+
+
+
+
+
+
+<li role="presentation" class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/citizenportal/logout.htm">Sign Out<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+				</noscript>
+			
+			
+				
+					
+
+
+
+
+
+
+
+				
+			
+			
+				
+
+
+
+
+
+
+
+
+
+	
+		
+			<li class="visible-xs-block"><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/services/counciltax/ctaxhelp.htm?showdocument" target="_blank">Help<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+		
+		
+	
+
+
+			
+		</ul>
+		<ul class="nav navbar-nav navbar-right hidden-xs" id="capita-myprofile-widget-container">
+			
+				
+					
+
+
+
+
+
+
+
+				
+				
+					
+
+
+
+
+
+
+
+
+
+	
+		
+			<li class=""><a href="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/selfservice/services/counciltax/ctaxhelp.htm?showdocument" target="_blank">Help<span class="icon-arrow-right17 pull-right visible-xs-block"></span></a></li>
+		
+		
+	
+
+
+				
+			
+		</ul>
+	</div>
+</div>
+			
+			
+		
+	
+</nav>
+					
+				
+			
+		
+	</div>
+	
+</div>
+	
+			
+
+
+			
+
+
+
+
+
+
+
+
+	
+	
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="summary_correspondance">
+					<pre>
+						</pre></div><body><hr>
+<table style="border:0px solid white;">  
+<TR><TH width="68%" ROWSPAN=6><img src="https://revenuesbenefits.bexley.gov.uk/publicaccessbexlive/webresources/images/BexLogo2.png"></TH>
+    <TD style="text-align:right ;font-size: 13px" width="50%"><h2>Council Tax e-Bill 2018/2019</h2></TD></TR>
+<TR><TD style="text-align:right ;font-size: 13px" width="50%">Date of issue: 16.10.2018</TD></TR>
+<TR><TD style="text-align:right ;font-size: 13px" width="50%">Council tax reference number: 804195639</TD></TR>
+<TR><TD style="text-align:right ;font-size: 13px" width="50%">Bill and adjustment number: 1/200</TD></TR>
+</table><br><br>
+
+<h4>Account details</h4>
+MISS SHANA DACRES<br>
+MR JOVANIE LAWRENCE<br>
+66 GROSVENOR ROAD BELVEDERE <br>                                     
+KENT  <br>                                     
+DA17 5JY       <br>
+<br>Email address: <a href="jayshaun.lawrence@gmail.com">jayshaun.lawrence@gmail.com</a><br>
+<i>If your contact details have changed please notify the council.</i><br>
+<br><br>
+Liability Address: 66 GROSVENOR ROAD BELVEDERE KENT  DA17 5JY
+<h4>How the tax is arrived at for your Band C property</h4>
+The 2018/2019 Council Tax for this band is &pound;1411.60 and the overall percentage change this year is 4.2%. <br><br>
+<table width="700">
+  <tr>
+    <th>          </th>
+    <th style="text-align:right">amount</th>
+    <th style="text-align:right"></th>    
+  </tr>
+  <tr>
+    <td>LONDON BOROUGH OF BEXLEY*</td>
+    <td style="text-align:right">&pound;1086.22 </td>
+    <td style="text-align:right">(change of 2.0% on last year*)</td>
+  </tr>
+  <tr>
+    <td>LONDON BOROUGH OF BEXLEY** </td>
+    <td style="text-align:right">&pound;63.84 </td>
+    <td style="text-align:right">[2.0% for Adult Social Care**]</td>    
+  </tr>
+  <tr>
+    <td>GREATER LONDON AUTHORITY </td>
+    <td style="text-align:right">&pound;261.54 </td>
+    <td style="text-align:right">(change of 5.1% on last year)</td>    
+  </tr>
+  <tr>
+    <td><b>Total</b> </td>
+    <td style="text-align:right"><b>&pound;1411.60</b></td></tr></table>
+    <td>      </td>
+<br>*The actual council tax increase for the London Borough of Bexley is 1.99%. When rounded to 1 decimal place this appears as 2.0%.
+<br>**The council tax attributable to the London Borough of Bexley includes a precept to fund adult social care.
+<br><h4>How your Council Tax bill is calculated</h4>
+<table width="700">
+  <tr>
+    <td>Council Tax due for period 16.08.2018 to 31.03.2019</td>
+    <td style="text-align:right"> &pound;881.77</td>
+  </tr>
+  <tr>
+    <td>0.00% - Empty Unoccupied Unfurnished 16.08.2018 to 24.08.2018</td>
+    <td style="text-align:right">&pound;0.00</td>
+  </tr>
+  <tr>
+    <td>Payments</td>
+    <td style="text-align:right">-&pound;251.54</td>
+  </tr>
+  <tr>
+    <td><b>Total amount due for period 16.08.2018 to 31.03.2019</b></td>
+    <td style="text-align:right"><b>&pound;630.23</b></td>
+  </tr>
+</table>
+<br><h4>What do I need to pay?</h4>
+If you have a balance to pay on another year and this is subject to an arrangement/enforcement action it will not be included in the instalments and must be paid as previously notified. Instalments 
+due prior to the date of this bill are payable immediately.<br><br>
+This bill is payable by DIRECT DEBIT - 1ST DAY - 12 INSTALMENTS with a payment of &pound;26.23 on 01 Nov 2018  followed by 4 payments of &pound;151.00:<br><br>
+<table width="700">
+  <tr>
+    <th style="text-align:left">Date Due</th>
+    <th style="text-align:right">Amount Due</th>
+    <th style="text-align:right">Date Due</th>
+    <th style="text-align:right">Amount Due</th>     
+  </tr>
+  <tr>
+    <td style="text-align:left">01.11.2018 </td>
+    <td style="text-align:right">&pound;26.23</td>
+    <td style="text-align:right">01.01.2019</td>
+    <td style="text-align:right">&pound;151.00</td>
+  </tr>
+  <tr>
+    <td style="text-align:left">01.12.2018 </td>
+    <td style="text-align:right">&pound;151.00</td>
+    <td style="text-align:right">01.02.2019</td>
+    <td style="text-align:right">&pound;151.00</td>
+  </tr>
+  <tr>
+    <td style="text-align:left"> </td>
+    <td style="text-align:right"></td>
+    <td style="text-align:right">01.03.2019</td>
+    <td style="text-align:right">&pound;151.00</td>
+  </tr>
+</table>
+<br>
+
+<br><center><b>Direct Debit Guarantee</b></center><ul>
+<li>The Guarantee is offered by all banks and building societies that accept instructions to pay Direct Debits.</li>
+<li>If there are any changes to the amount, date or frequency of your Direct Debit the London Borough of Bexley will notify you (normally 10 working days) in advance of your account being debited or 
+as otherwise agreed. If you request the London Borough of Bexley to collect a payment, confirmation of the amount and date will be given to you at the time of the request.</li>
+<li>If an error is made in the payment of your Direct Debit, by the London Borough of Bexley or your bank or building society, you are entitled to a full and immediate refund of the amount paid from 
+your bank or building society.</li>
+<li>If you receive a refund you are not entitled to, you must pay it back when the London Borough of Bexley asks you to.</li>
+<li>You can cancel a Direct Debit at any time by simply contacting your bank or building society. Written confirmation may be required. Please also notify the London Borough of 
+Bexley.</li><br><center><img src="https://revenuesbenefits.bexley.gov.uk/DD.png"></center></ul><br><br>
+<h4>Your Council Tax account balance - &pound;630.23</h4>
+You owe <b>&pound;630.23</b> as shown on this bill and you have no credits or debits for other periods.
+
+
+
+
+<hr>
+<b>YOUR COUNCIL TAX:</b><br>
+The London Borough of Bexley and Greater London Authority's Budget and Council Tax Requirement can now be viewed on Bexley's website. However if you require a printed copy please contact the Council 
+Tax office (see below). This bill forms the demand notice issued under the Council Tax (Administration & Enforcement) Regulations 1992, as amended.<br><br>
+Further information relating to your property band, an explanation in respect to discounts or exemptions and paying over 12 monthly instalments can be found on the Bexley website at <a 
+href="http://www.bexley.gov.uk/counciltax">www.bexley.gov.uk/counciltax</a><br><br>
+For adult social care authorities, council tax bills show two percentage changes: one for the part of the overall change attributable to the adult social care precept, and one for the part 
+attributable to general expenditure.<br><br>
+<b>COUNCIL TAX REDUCTION SCHEME (FORMERLY COUNCIL TAX BENEFIT):</b><br>
+The amount of Council Tax payable for working age customers is 20%. Full details of the scheme and how to apply can be found on Bexley's website.
+<br><br>
+<b>HOW TO CONTACT THE COUNCIL TAX OFFICE:</b><br>
+<b>Online:</b> If you need to advise us of a change of circumstance, apply or remove a discount or exemption go online to complete the relevant form.<br>
+<b>Email:</b> bexley.ctax@secure.capita.co.uk <br>
+<b>Telephone:</b> From 9.00am to 5.00pm - Monday to Friday - 0345 302 2317 <br>
+<b>Fax:</b> 01322 356069 <br>
+<b>Write to:</b> Bexley Council Tax, PO Box 367, Erith, Kent, DA8 1UA <br>
+<b>Visit:</b> You will need to make an appointment if you wish to speak to a Council Tax or Benefit Officer. Please ring the telephone number listed above.<br>
+<br>
+<b>STRUGGLING TO PAY?</b>
+If you are struggling to pay your Council Tax, don't delay in contacting us as recovery action will commence if you take no action. See above on how to contact the Council Tax Department.
+
+If you wish to seek financial advice from an independent body you may wish to contact <a href="http://www.adviceguide.org.uk/index/your_money/money_management_index_ew.htm">Citizens Advice 
+Bureau</a>, <a href="http://www.capuk.org/">Christians Against Poverty</a>, <a href="http://www.transformbexleyborough.com/local-events/bexley-ministries/new-community-debt-advice-service/">New 
+Community Debt Advice Service</a> and <a href="http://www.stepchange.org/">Step Change Debt Charity</a>. Also if you are struggling with your mortgage or rent payments <a 
+href="http://england.shelter.org.uk/get_advice">Shelter</a> may be able to help.
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+					</pre>
+				</div>
+			</div>
+		</div>
+	
+
+
+
+		</div>
+	</div>
+	
+
+
+	
+		</div>
+	</div>
+</div>
+<div class="footer-top">
+  	<div class="container">
+    <div class="row">
+  <div class="region region-footer-top">
+    <section class="views-element-container col-xs-12 block block-views block-views-blocka-z-block-1 clearfix" id="block-views-block-a-z-block-1">
+  
+    
+
+      <div class="form-group"><div class="view view-a-z view-id-a_z view-display-id-block_1 js-view-dom-id-2aec5128a89cb0ee6480e0641e2e29e9594e220e46909de34f117303cf0e3285">
+  
+    
+      
+      <div class="view-content">
+        <span>
+
+    </span>
+
+    </div>
+  
+          </div>
+</div>
+
+  </section>
+
+
+  </div>
+
+         
+
+    </div>
+	</div>
+  </div>
+                 <footer class="footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+        <div class="region region-footer">
+    <nav role="navigation" aria-labelledby="block-bexley-bootstrap-cdn-footer-menu" id="block-bexley-bootstrap-cdn-footer" class="col-xs-12 footer-menu">
+            
+  <h2 class="visually-hidden" id="block-bexley-bootstrap-cdn-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul class="menu nav">
+                            <li class="expanded dropdown">
+        <a href="http://www.bexley.gov.uk/contact" data-drupal-link-system-path="node/93">Contact Us</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="http://www.bexley.gov.uk/disclaimer" data-drupal-link-system-path="node/91">Disclaimer</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="http://www.bexley.gov.uk/terms " data-drupal-link-system-path="node/89">Terms and Conditions</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="http://www.bexley.gov.uk/privacy" data-drupal-link-system-path="node/90">Privacy Notice</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="http://www.bexley.gov.uk/accessibility" data-drupal-link-system-path="node/92">Accessibility</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="http://www.gov.uk/">GOV.UK</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="https://mybexley.firmstep.com/service/Compliments__complaints_and_enquiries">Feedback</a>
+                  </li>
+        </ul>
+  
+
+  </nav>
+<section id="block-footercontent" class="col-sm-12 block block-block-content block-block-content02e06562-e882-486b-9446-6352feefd9f6 clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p></p>
+			<p>&copy; 2017 London Borough of Bexley</p>
+			<p>&nbsp;</p>
+</div>
+      
+  </section>
+
+
+  </div>
+
+	  </div>
+	  </div>
+    </footer>
+  
+    
+
+	
+
+
+</body>
+</html>
